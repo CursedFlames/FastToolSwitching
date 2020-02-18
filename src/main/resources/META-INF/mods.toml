@@ -48,6 +48,6 @@ The time since last attack is retained, so this cannot be exploited by attacking
 [[dependencies.fasttoolswitching]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.1]"
+    versionRange="[1.15,1.16)"
     ordering="NONE"
     side="BOTH"
