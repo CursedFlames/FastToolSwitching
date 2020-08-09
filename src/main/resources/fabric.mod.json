@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fasttoolswitching",
+  "version": "${version}",
+  "name": "Fast Tool Switching",
+  "description": "Stops players' attack cooldown from resetting when they switch items.\nThe time since last attack is retained, so this cannot be exploited by attacking with a quick weapon then switching to an item with a longer cooldown. (The full cooldown will still apply)",
+  "authors": [
+    "CursedFlames"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/fast-tool-switching",
+    "sources": "https://github.com/CursedFlames/FastToolSwitching",
+    "issues": "https://github.com/CursedFlames/FastToolSwitching/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/fasttoolswitching/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fasttoolswitching.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.1+build.205",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
